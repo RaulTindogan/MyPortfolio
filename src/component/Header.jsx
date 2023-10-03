@@ -27,7 +27,7 @@ function Header() {
     <header className="header" id="header">
         <nav className="navbar container">
             <div className="nav__logo-container">
-                <img src="assets/logo/Logo.png" alt="Raul Tindogan" className="nav__logo" />
+                <img src="./assets/logo/Logo.png" alt="Raul Tindogan" className="nav__logo" />
             </div>
             <ul className="nav__desktop-link-container">
                 <a href="#home" className={`nav__desktop--link ${activeItem === 'home' ? 'desktop__navlink--isActive' : ''}`} onClick={() => handleItemClick('home')}><li>HOME</li></a>
